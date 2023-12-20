@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="index.css" />
+    <title>Wp-pusher-checkout</title>
+  </head>
+  <body>
+    <div class="wp-pusher">
+      <nav
+        class="nav-bar flex justify-betweeen items-center m-auto"
+        aria-label="Breadcrumbs"
+      >
+        <div class="flex justify-center items-center">
+          <img
+            class="wppusher-logo"
+            src="img/wppusher-logo copy.png"
+            alt="wppusher-logo"
+            srcset=""
+          />
+        </div>
+        <div class="nav-div">
+          <ul role="list" class="flex justify-betweeen items-center">
+            <li>
+              <a
+                class="download text-decoration-none text-primary nav-text"
+                href="#download"
+                >Download</a
+              >
+            </li>
+            <li style="margin-inline-start: 46px">
+              <a
+                class="learn text-decoration-none text-primary nav-text"
+                href="#"
+                >Learn more</a
+              >
+            </li>
+            <li style="margin-inline-start: 42px">
+              <a
+                class="pricing text-decoration-none text-primary nav-text"
+                href="#"
+                >Pricing</a
+              >
+            </li>
+            <li style="margin-inline-start: 44px">
+              <a
+                class="help text-decoration-none text-primary nav-text"
+                href="#"
+                >Help</a
+              >
+            </li>
+            <li style="margin-inline-start: 44px">
+              <a
+                class="account text-decoration-none text-primary border-black nav-text"
+                aria-current="page"
+                href="#"
+                >Account</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <section class="checkout-container">
+        <section class="checkout flex flex-shrink">
+          <section class="checkout-info-fill">
+            <div class="checkout-title">
+              <h2 class="text-primary-grey">Checkout</h2>
+            </div>
+            <section class="checkout-content">
+              <div class="flex items-center sub-titl-one">
+                <div class="number-container">1</div>
+                <h4 class="text-primary">Your Basic Information</h4>
+              </div>
+              <div class="flex justify-betweeen" style="padding-top: 9px">
+                <div>
+                  <label class="block text-style">First Name</label>
+                  <input class="input-box" placeholder="     Jane" type="" />
+                </div>
+                <div>
+                  <label class="block text-style">Last Name</label>
+                  <input class="input-box" placeholder="     Doe" type="" />
+                </div>
+              </div>
+              <div class="email-container">
+                <label class="block text-style">E-mail</label>
+                <input
+                  class="email-input-box"
+                  placeholder="     janedoe@gmail.com"
+                  type="text"
+                />
+              </div>
+            </section>
+            <section class="checkout-payment-info">
+              <div class="flex items-center sub-title">
+                <div class="number-container">2</div>
+                <h4 class="text-primary">Your Payment Information</h4>
+              </div>
+              <div style="padding-top: 21px">
+                <label class="block text-style">Credit Card</label>
+                <input
+                  class="cc-input-box"
+                  placeholder="    Card Number                                                                                                       MM / YY       CVC   "
+                />
+              </div>
+            </section>
+            <section class="purchase">
+              <div class="flex flex-column items-center">
+                <button class="buy-btn"><b>Buy WP Pusher</b></button>
+                <div class="flex sub-title" style="height: 90px">
+                  <div class="question-container">?</div>
+                  <div class="purchase-support">
+                    <p>
+                      <b>Need any help ? </b> Don't hesitate to
+                      <a href="">contact </a>
+                      support!
+                    </p>
+                  </div>
+                </div>
+                <div
+                  style="
+                    width: 92px;
+                    height: 20.101px;
+                    margin-block-start: -30px;
+                  "
+                >
+                  <img
+                    src="img/powered_by_stripe.png"
+                    alt="powered_by_stripe"
+                  />
+                </div>
+              </div>
+            </section>
+          </section>
+          <section class="side-bar">
+            <section class="side-bar-content">
+              <div class="side-bar-plan">
+                <h3>Freelancer</h3>
+                <div class="pricing">
+                  <h4><sup>$</sup>99<sub>/ year</sub></h4>
+                </div>
+                <div class="renews">
+                  <em>Automatically renews </em>
+                  <p><em>after 1 year</em></p>
+                </div>
+              </div>
+              <div class="side-bar-details">
+                <ol style="list-style-type: none">
+                  <li>
+                    <span class="check-container">✓</span>Use on <b>5</b> client
+                    sites
+                  </li>
+                  <li>
+                    <span class="check-container">✓</span>Private repositories
+                  </li>
+                  <li><span class="check-container">✓</span>Email support</li>
+                </ol>
+              </div>
+              <div class="side-bar-switch">
+                <p>Need <b>20</b> clients sites?</p>
+                <p class="switch-agency-plan">Switch to the Agency plan</p>
+                <hr />
+              </div>
+              <div class="side-bar-quote">
+                <hr />
+                <div class="quote">
+                  <p>
+                    FTP is horrible to deal with. <b>WP Pusher </b>solves that
+                    issue, and the customer support is awesome!
+                  </p>
+                </div>
+                <div class="flex flex-gap">
+                  <img
+                    class="quote-img"
+                    src="/img/Bitmap.png"
+                    alt="kirk-beard-img"
+                  />
+                  <span class="quoter-name">Kirk Beard</span>
+                </div>
+              </div>
+            </section>
+          </section>
+        </section>
+      </section>
+      <footer>
+        <div>
+          <img class="footer-img" src="./img/© 2018 WP Pusher IVS.png" alt="" />
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
